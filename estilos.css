@@ -1,0 +1,124 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    font-size: 16px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    width: 454px;
+    height: 700px;
+    background-color: rgb(240, 238, 236);
+    font-family: 'Red Hat Display', sans-serif;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 3px 3px 3px rgb(155, 146, 146);
+
+}
+
+.imagen {
+/* 
+    grid-column: 1/2;
+    grid-row: 1/2 ;  */
+}
+
+img {
+    border-radius: 10px 10px 0 0;
+    width: 454px;
+}
+
+
+.detalles {
+
+    margin-left: 50px;
+    grid-column: 1/2;
+    grid-row: 2/3; 
+    width: 450px;
+    height: 193px;
+ 
+   
+    
+    
+}
+
+.titulo {
+    margin-left: 50px;
+}
+
+
+
+.anualPlan {
+    
+
+    width: 450px;
+    height: 130px;
+    grid-column: 1/2;
+    grid-row: 3/4; 
+}
+
+
+
+.contenidoPlan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(232, 245, 245);
+    height: 100px;
+    width: 350px;
+    margin-left: 50px;
+    border-radius: 10px;
+   
+
+}
+
+.contenidoPlan a {
+    text-decoration: none;
+}
+
+
+
+.iconoMusica {
+    height: 48px;
+    width: 48px;
+}
+
+
+.botones {
+    
+    width: 450px;
+    height: 160px;
+    margin-left: 50px;
+    grid-column: 1/2;
+    grid-row: 4/5; 
+    
+    
+}
+.boton1 {
+
+    width: 354px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 3px rgb(155, 146, 146);
+}
+
+.boton2 {
+
+    width: 354px;
+    height: 50px;
+    background-color: rgb(115, 115, 124);
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 3px 3px rgb(155, 146, 146);
+}
